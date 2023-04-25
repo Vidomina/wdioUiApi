@@ -12,7 +12,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Node.js code
-      - npm run test
+      - npm run wdio
   post_build:
     commands:
       - echo Build completed on `date`
