@@ -15,7 +15,7 @@ describe('My test', () => {
     })
 
     it('should not be the same', async () => {
-        expect(uiResult[1]).toBe(apiResult);
+        expect(uiResult[1]).not.toBe(apiResult);
     })
 })
 
